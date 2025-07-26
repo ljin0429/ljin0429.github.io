@@ -1,0 +1,8 @@
+@inproceedings{
+lim2025prime,
+title={{PRIME}: Deep Imbalanced Regression with Proxies},
+author={Jongin Lim and Sucheol Lee and Daeho Um and Sung-Un Park and Jinwoo Shin},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=hvaPL2DMpQ}
+}

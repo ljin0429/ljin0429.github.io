@@ -1,0 +1,8 @@
+@inproceedings{
+um2025spreading,
+title={Spreading Out-of-Distribution Detection on Graphs},
+author={Daeho Um and Jongin Lim and Sunoh Kim and Yuneil Yeo and Yoonho Jung},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=p1TBYyqy8v}
+}

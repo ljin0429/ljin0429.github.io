@@ -1,0 +1,9 @@
+@article{lim2018pose,
+  title={Pose transforming network: Learning to disentangle human posture in variational auto-encoded latent space},
+  author={Lim, Jongin and Yoo, Youngjoon and Heo, Byeongho and Choi, Jin Young},
+  journal={Pattern Recognition Letters},
+  volume={112},
+  pages={91--97},
+  year={2018},
+  publisher={Elsevier}
+}

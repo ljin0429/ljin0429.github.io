@@ -1,0 +1,9 @@
+@article{yun2017scene,
+  title={Scene conditional background update for moving object detection in a moving camera},
+  author={Yun, Kimin and Lim, Jongin and Choi, Jin Young},
+  journal={Pattern Recognition Letters},
+  volume={88},
+  pages={57--63},
+  year={2017},
+  publisher={Elsevier}
+}

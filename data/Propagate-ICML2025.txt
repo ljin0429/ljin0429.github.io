@@ -1,0 +1,8 @@
+@inproceedings{
+um2025propagate,
+title={Propagate and Inject: Revisiting Propagation-Based Feature Imputation for Graphs with Partially Observed Features},
+author={Daeho Um and Sunoh Kim and Jiwoong Park and Jongin Lim and Seong Jin Ahn and Seulki Park},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=QfKrcgyase}
+}

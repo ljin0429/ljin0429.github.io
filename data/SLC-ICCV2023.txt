@@ -1,0 +1,7 @@
+@inproceedings{ahn2023sample,
+  title={Sample-wise label confidence incorporation for learning with noisy labels},
+  author={Ahn, Chanho and Kim, Kikyung and Baek, Ji-won and Lim, Jongin and Han, Seungju},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1823--1832},
+  year={2023}
+}

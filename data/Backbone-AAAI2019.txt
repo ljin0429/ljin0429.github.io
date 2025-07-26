@@ -1,0 +1,9 @@
+@inproceedings{ro2019backbone,
+  title={Backbone cannot be trained at once: Rolling back to pre-trained network for person re-identification},
+  author={Ro, Youngmin and Choi, Jongwon and Jo, Dae Ung and Heo, Byeongho and Lim, Jongin and Choi, Jin Young},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={33},
+  number={01},
+  pages={8859--8867},
+  year={2019}
+}

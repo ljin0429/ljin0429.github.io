@@ -1,0 +1,8 @@
+@inproceedings{yun2016attention,
+  title={Attention-inspired moving object detection in monocular dashcam videos},
+  author={Yun, Kimin and Lim, Jongin and Yun, Sangdoo and Kim, Soo Wan and Choi, Jin Young},
+  booktitle={2016 23rd International Conference on Pattern Recognition (ICPR)},
+  pages={2706--2711},
+  year={2016},
+  organization={IEEE}
+}

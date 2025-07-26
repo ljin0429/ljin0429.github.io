@@ -1,0 +1,7 @@
+@inproceedings{lim2022hypergraph,
+  title={Hypergraph-induced semantic tuplet loss for deep metric learning},
+  author={Lim, Jongin and Yun, Sangdoo and Park, Seulki and Choi, Jin Young},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={212--222},
+  year={2022}
+}

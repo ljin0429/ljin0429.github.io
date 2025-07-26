@@ -1,0 +1,7 @@
+@inproceedings{park2021influence,
+  title={Influence-balanced loss for imbalanced visual classification},
+  author={Park, Seulki and Lim, Jongin and Jeon, Younghan and Choi, Jin Young},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={735--744},
+  year={2021}
+}

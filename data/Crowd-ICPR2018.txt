@@ -1,0 +1,8 @@
+@inproceedings{jeong2018selective,
+  title={Selective ensemble network for accurate crowd density estimation},
+  author={Jeong, Jiyeoup and Jeong, Hawook and Lim, Jongin and Choi, Jongwon and Yun, Sangdoo and Choi, Jin Young},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  pages={320--325},
+  year={2018},
+  organization={IEEE}
+}

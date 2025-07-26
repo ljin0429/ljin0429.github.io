@@ -1,0 +1,9 @@
+@inproceedings{lim2021class,
+  title={Class-attentive diffusion network for semi-supervised classification},
+  author={Lim, Jongin and Um, Daeho and Chang, Hyung Jin and Jo, Dae Ung and Choi, Jin Young},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={35},
+  number={10},
+  pages={8601--8609},
+  year={2021}
+}

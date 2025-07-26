@@ -1,0 +1,617 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jongin Lim</title>
+
+    <meta name="author" content="Jon Barron">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Jongin.png" type="image/png">
+    <!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Jongin Lim
+                </p>
+                <p>
+                  I'm a Staff Researcher at <a href="https://samsung-dsrecruit.com/recruits/division_intro/detail/ai_center.php">Samsung AI Center</a>
+                  (formerly <a href="https://www.sait.samsung.co.kr">SAIT</a> AI Research Center), developing robust and efficient machine learning models tailored for industrial applications.
+                  My work has focused on AI-driven automation in manufacturing, spanning diverse modalities including vision, language, structured data (<em>e.g.</em>, graph, tabular), and time-series domains.
+                </p>
+                <p>
+                  I received my Ph.D. (through an integrated M.S./Ph.D. program) in Electrical and Computer Engineering from <a href="http://www.useoul.edu/">Seoul National University</a> in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Prof. Jin Young Choi</a>.
+                  I received my B.S. in Electrical and Computer Engineering from <a href="http://www.useoul.edu/">Seoul National University</a> in 2016.
+                </p>
+                <p style="text-align:center">
+                  <a href="data/Email.txt">Email</a> &nbsp;/&nbsp;
+                  <a href="data/Jongin-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.co.kr/citations?hl=ko&pli=1&user=6jxQqmoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/ljin0429">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/jonging_profile.png">
+                  <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Jongin.png" class="hoverZoomLink">
+                </a>
+              </td>
+            </tr>
+          </tbody></table>
+        
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>News</h2>
+                <ul style="list-style-type: disc; padding-left: 40px;">
+                  <li>[2025.07] 📢 I will serve as Program Committee for AAAI 2026.</li>
+                  <li>[2025.07] ✈️ I will attend <a href="https://icml.cc/Conferences/2025" target="_blank">ICML 2025</a> in Vancouver, Canada 🇨🇦</li>
+                  <li>[2025.05] 📝 <a href="#PRIME-icml2025">Two papers</a> were accepted to ICML 2025.</li>
+                  <li>[2025.01] 📝 <a href="#Spreading-iclr2025">One paper</a> was accepted to ICLR 2025.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  My research focuses on developing <strong>generalizable</strong> and <strong>transferable</strong> ML models for real-world applications.
+                  Recently, I have worked on improving model robustness under data imbalance (<em>e.g.</em>, <a href="#IB-iccv2021">IB</a>, <a href="#PRIME-icml2025">PRIME</a>), distribution shifts (<em>e.g.</em>, <a href="#BiasAdv-cvpr2023">BiasAdv</a>), and noisy labels (<em>e.g.</em>, <a href="#SLC-iccv2023">SLC</a>),
+                  but I am open to exploring a broader range of topics. 
+                  I have also investigated deep metric learning (<em>e.g.</em>, <a href="#HIST-cvpr2022">HIST</a>), graph-based learning (<em>e.g.</em>, <a href="#CAD-Net-aaai2021">CAD</a>), and realistic human motion generation (<em>e.g.</em>, <a href="#PMnet-bmvc2019">PMnet</a>).
+                  First-author papers are <span class="highlight">highlighted</span>.
+                </p>
+                <!-- <p>See also at my <a href="https://scholar.google.co.kr/citations?hl=ko&pli=1&user=6jxQqmoAAAAJ">Google Scholar</a>.</p> -->
+
+    <!-- My research focuses on ensuring model robustness under data imbalance (<em>e.g.</em>, <a href="#IB-iccv2021">IB</a>, <a href="#PRIME-icml2025">PRIME</a>), distribution shifts (<em>e.g.</em>, <a href="#BiasAdv-cvpr2023">BiasAdv</a>), and noisy labels (<em>e.g.</em>, <a href="#SLC-iccv2023">SLC</a>).
+    I've also explored deep metric learning (<em>e.g.</em>, <a href="#HIST-cvpr2022">HIST</a>), graph learning (<em>e.g.</em>, <a href="#CAD-Net-aaai2021">CAD</a>), and realistic human motion generation (<em>e.g.</em>, <a href="#PMnet-bmvc2019">PMnet</a>). -->
+                <!-- <p>
+      I'm interested in developing robust and efficient machine learning models for real-world applications, spanning vision, language, structured data (<em>e.g.</em>, graph, tabular), and time-series domains. 
+                </p> -->
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+     
+    <!-- PRIME (ICML'25) -->
+    <tr bgcolor="#ffffd0" id="PRIME-icml2025">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/PRIME-ICML2025.png" alt="Thumbnail" style="width: 160px; height: 125px;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openreview.net/pdf/3395365edf5b62f3c0c5f44750c27920999ff4dd.pdf">
+          <span class="papertitle">PRIME: Deep Imbalanced Regression with Proxies</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.co.kr/citations?user=hh1Ms7gAAAAJ&hl=ko&oi=ao">Sucheol Lee</a>,
+        <a href="https://scholar.google.co.kr/citations?user=8pAHR7AAAAAJ&hl=ko">Daeho Um</a>,
+        <a href="https://scholar.google.co.kr/citations?user=ewfZgkAAAAAJ&hl=ko&oi=ao">Sung-Un Park</a>,
+        <a href="https://scholar.google.co.kr/citations?user=m3eDp7kAAAAJ&hl=ko&oi=ao">Jinwoo Shin</a>
+        <br>
+        <em>ICML</em>, 2025
+        <br>
+        <a href="data/PRIME-ICML2025.txt">bibtex</a>
+        /
+        code
+        <p></p>
+        <p>
+          We propose Proxy-based Representation learning for IMbalanced rEgression (PRIME), a novel framework that leverages learnable proxies to construct a balanced and well-ordered feature space for imbalanced regression.
+        </p>
+      </td>
+    </tr>
+    
+    <!-- Propagate and Inject (ICML'25) -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/Propagate-ICML2025.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openreview.net/forum?id=QfKrcgyase">
+          <span class="papertitle">Propagate and Inject: Revisiting Propagation-Based Feature Imputation for Graphs with Partially Observed Features</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=8pAHR7AAAAAJ&hl=ko">Daeho Um</a>,
+        <a href="https://scholar.google.co.kr/citations?user=wlhSowsAAAAJ&hl=ko">Sunoh Kim</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=B8XAbUwAAAAJ&hl=ko&oi=sra">Jiwoong Park</a>,
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=JWggrigAAAAJ&hl=ko">Seong Jin Ahn</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=6Wh4hxcAAAAJ&hl=ko">Seulki Park</a>
+        <br>
+        <em>ICML</em>, 2025
+        <br>
+        <a href="data/Propagate-ICML2025.txt">bibtex</a>
+        /
+        <a href="https://github.com/daehoum1/fisf">code</a>
+        <p></p>
+        <p>
+          We address learning tasks on graphs with missing features, enhancing the applicability of graph neural networks to real-world graph-structured data.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Spreading OOD (ICLR'25) -->
+    <tr id="Spreading-iclr2025">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/Spreading-ICLR2025.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openreview.net/forum?id=p1TBYyqy8v">
+          <span class="papertitle">Spreading Out-of-Distribution Detection on Graphs</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=8pAHR7AAAAAJ&hl=ko">Daeho Um</a>,
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.co.kr/citations?user=wlhSowsAAAAJ&hl=ko">Sunoh Kim</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=QhdatEsAAAAJ&hl=ko&oi=ao">Yuneil Yeo</a>, 
+        <a href="https://sites.google.com/snu.ac.kr/jungyh19/홈">Yoonho Jung</a>
+        <br>
+        <em>ICLR</em>, 2025
+        <br>
+        <a href="data/Spreading-ICLR2025.txt">bibtex</a>
+        <p></p>
+        <p>
+          We introduce a new challenging task to model the interactions of OOD nodes in a graph, termed spreading OOD detection, where a newly emerged OOD node spreads its property to neighboring nodes. 
+          We present a realistic benchmark setup with a new dataset and propose a novel aggregation scheme for the new task.
+        </p>
+      </td>
+    </tr>
+
+    <!-- SLC (ICCV'23) -->
+    <tr id="SLC-iccv2023">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/SLC-ICCV2023.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Ahn_Sample-wise_Label_Confidence_Incorporation_for_Learning_with_Noisy_Labels_ICCV_2023_paper.pdf">
+          <span class="papertitle">Sample-wise Label Confidence Incorporation for Learning with Noisy Labels</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=JkyCPOUAAAAJ&hl=ko&oi=ao">Chanho Ahn</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=IDkEraAAAAAJ&hl=ko&oi=ao">Kikyung Kim</a>, 
+        <a href="https://scholar.google.com/citations?user=lEjH5TAAAAAJ&hl=ko">Ji-won Baek</a>,
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.co.kr/citations?user=k6JrBF8AAAAJ&hl=ko&oi=ao">Seungju Han</a>
+        <br>
+        <em>ICCV</em>, 2023
+        <br>
+        <a href="data/SLC-ICCV2023.txt">bibtex</a>
+        /
+        <a href="https://www.youtube.com/watch?v=44t_4xZvvVs">video</a>
+        <p></p>
+        <p>
+          We propose a novel learning framework that selectively suppresses noisy samples while avoiding underfitting clean data. 
+          Our framework incorporates label confidence as a measure of label noise, enabling the network model to prioritize the training of samples deemed to be noise-free.
+        </p>
+      </td>
+    </tr>
+
+    <!-- BiasAdv (CVPR'23) -->
+    <tr bgcolor="#ffffd0" id="BiasAdv-cvpr2023">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/BiasAdv-CVPR2023.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Lim_BiasAdv_Bias-Adversarial_Augmentation_for_Model_Debiasing_CVPR_2023_paper.html">
+          <span class="papertitle">BiasAdv: Bias-Adversarial Augmentation for Model Debiasing</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=CE39KnoAAAAJ&hl=en">Youngdong Kim</a>, 
+        <a href="https://scholar.google.com/citations?user=aiuGRhsAAAAJ&hl=en">Byungjai Kim</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=JkyCPOUAAAAJ&hl=ko&oi=ao">Chanho Ahn</a>,
+        <a href="https://scholar.google.co.kr/citations?user=m3eDp7kAAAAJ&hl=ko&oi=ao">Jinwoo Shin</a>,
+        <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=k6JrBF8AAAAJ&hl=ko&oi=ao">Seungju Han</a>
+        <br>
+        <em>CVPR</em>, 2023
+        <br>
+        <a href="data/BiasAdv-CVPR2023.txt">bibtex</a>
+        /
+        <a href="https://www.youtube.com/watch?v=8Z_Z75-qc4E">video</a>
+        <p></p>
+        <p>
+          We propose a novel data augmentation approach termed Bias-Adversarial augmentation (BiasAdv) that supplements bias-conflicting samples with adversarial images. 
+          Our key idea is that an adversarial attack on a biased model that makes decisions based on spurious correlations may generate synthetic bias-conflicting samples, 
+          which can then be used as augmented training data for learning a debiased model.
+        </p>
+      </td>
+    </tr>
+
+    <!-- HIST (CVPR'22) -->
+    <tr bgcolor="#ffffd0" id="HIST-cvpr2022">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/HIST-CVPR2022.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lim_Hypergraph-Induced_Semantic_Tuplet_Loss_for_Deep_Metric_Learning_CVPR_2022_paper.pdf">
+          <span class="papertitle">Hypergraph-Induced Semantic Tuplet Loss for Deep Metric Learning</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://sangdooyun.github.io">Sangdoo Yun</a>, 
+        <a href="https://scholar.google.co.kr/citations?user=6Wh4hxcAAAAJ&hl=ko">Seulki Park</a>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>
+        <br>
+        <em>CVPR</em>, 2022
+        <br>
+        <a href="data/HIST-CVPR2022.txt">bibtex</a>
+        /
+        <a href="https://github.com/ljin0429/HIST">code</a>
+        <p></p>
+        <p>
+          We formulate deep metric learning as a hypergraph node classification problem to capture multilateral relationship by semantic tuplets beyond previous pairwise relationship-based methods.
+        </p>
+      </td>
+    </tr>
+    
+    <!-- IB (ICCV'21) -->
+    <tr id="IB-iccv2021">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/IB-ICCV2021.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Park_Influence-Balanced_Loss_for_Imbalanced_Visual_Classification_ICCV_2021_paper.pdf">
+          <span class="papertitle">Influence-balanced Loss for Imbalanced Visual Classification</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=6Wh4hxcAAAAJ&hl=ko">Seulki Park</a>, 
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=ZyMJTEMAAAAJ&hl=ko">Younghan Jeon</a>,
+        <a href="https://scholar.google.co.kr/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>
+        <br>
+        <em>ICCV</em>, 2021
+        <br>
+        <a href="https://arxiv.org/abs/2110.02444">arXiv</a>
+        /
+        <a href="data/IB-ICCV2021.txt">bibtex</a>
+        /
+        <a href="https://github.com/pseulki/IB-Loss">code</a>
+        /
+        <a href="https://www.youtube.com/watch?v=IScwCt_xYoY">video</a>
+        <p></p>
+        <p>
+          We propose a new loss function for imbalanced visual classification, which alleviates the influence of samples that cause an overfitted decision boundary.
+        </p>
+      </td>
+    </tr>
+
+    <!-- CAD-Net (AAAI'21) -->
+    <tr bgcolor="#ffffd0" id="CAD-Net-aaai2021">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/CAD-AAAI2021.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ojs.aaai.org/index.php/AAAI/article/view/17043/16850&ved=2ahUKEwj4re-ZtJmOAxWR8DQHHf-XNtkQFnoECBkQAQ&usg=AOvVaw3ySuUfY5nnqz-gpYEbamYK">
+          <span class="papertitle">Class-Attentive Diffusion Network for Semi-Supervised Classification</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.co.kr/citations?user=8pAHR7AAAAAJ&hl=ko">Daeho Um</a>,
+        <a href="https://scholar.google.com/citations?user=3TggrEkAAAAJ&hl=ko">Hyung Jin Chang</a>, 
+        <a href="https://scholar.google.com/citations?user=ADbgR44AAAAJ&hl=ko">Dae Ung Jo</a>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>AAAI</em>, 2021
+        <br>
+        <a href="https://arxiv.org/abs/2006.10222">arXiv</a>
+        /
+        <a href="data/CAD-AAAI2021.txt">bibtex</a>
+        /
+        <a href="https://github.com/ljin0429/CAD-Net">code</a>
+        <p></p>
+        <p>
+          We propose a novel stochastic process, called Class-Attentive Diffusion (CAD), that strengthens attention to intra-class nodes and attenuates attention to inter-class nodes. 
+          In contrast to the previous diffusion methods, CAD considers both the node features and the graph structure with the design of our class-attentive transition matrix that utilizes a classifier. 
+        </p>
+      </td>
+    </tr>
+
+    <!-- Backbone (AAAI'19) -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/rollback-AAAI2019.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://sites.google.com/view/youngmin-ro-vision/home/rollback?authuser=0">
+          <span class="papertitle">Backbone Cannot Be Trained at Once: Rolling Back to Pre-trained Network for Person Re-identification</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.com/citations?user=-2MnHEIAAAAJ&hl=ko">Youngmin Ro</a>, 
+        <a href="https://scholar.google.com/citations?user=F3u9qHcAAAAJ&hl=en">Jongwon Choi</a>, 
+        <a href="https://scholar.google.com/citations?user=ADbgR44AAAAJ&hl=ko">Dae Ung Jo</a>, 
+        <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>, 
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>AAAI</em>, 2019
+        <br>
+        <a href="https://arxiv.org/abs/1901.06140">arXiv</a>
+        /
+        <a href="data/Backbone-AAAI2019.txt">bibtex</a>
+        /
+        <a href="https://github.com/youngminPIL/rollback">code</a>
+        <p></p>
+        <p>
+          We propose a novel fine-tuning strategy that allows low-level layers to be sufficiently trained by rolling back the weights of high-level layers to their initial pre-trained weights. 
+          Our strategy alleviates the problem of gradient vanishing in low-level layers.
+        </p>
+      </td>
+    </tr>
+
+    <!-- PMnet (BMVC'19) -->
+    <tr bgcolor="#ffffd0" id="PMnet-bmvc2019">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/PMnet-BMVC2019.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://pure-oai.bham.ac.uk/ws/portalfiles/portal/71180007/PMnet_Learning.pdf">
+          <span class="papertitle">PMnet: Learning of Disentangled Pose and Movement for Unsupervised Motion Retargeting</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=3TggrEkAAAAJ&hl=ko">Hyung Jin Chang</a>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>BMVC</em>, 2019
+        <br>
+        <a href="data/PMnet-BMVC2019.txt">bibtex</a>
+        /
+        <a href="https://github.com/ljin0429/bmvc19_pmnet">code</a>
+        /
+        <a href="https://www.youtube.com/watch?v=oWGK8dO7JU4">video</a>
+        <p></p>
+        <p>
+          We propose a deep learning framework for unsupervised motion retargeting. 
+          In contrast to the existing method, we decouple the motion retargeting process into two parts that explicitly learn poses and movements of a character,
+          reducing the motion retargeting error (average joint position error) from 7.68 (sota) to 1.95 (ours).
+        </p>
+      </td>
+    </tr>
+
+    <!-- Pose Transform (PR Letters'18) -->
+    <tr bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/PTN-PRL2018.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865518302678">
+          <span class="papertitle">Pose Transforming Network: Learning to Disentangle Human Posture in Variational Auto-encoded Latent Space</span>
+        </a>
+        <br>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=YGVqRuIAAAAJ&hl=ko">Youngjoon Yoo</a>,
+        <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>Pattern Recognition Letters</em>, 2018
+        <br>
+        <a href="data/PTN-PRL2018.txt">bibtex</a>
+        <p></p>
+        <p>
+          We propose a novel deep conditional generative model for human pose transforms. 
+          To generate the desired pose-transformed images from a single image, a variational inference model is formulated to disentangle human posture semantics from image identity (human personality, background etc.) in variational auto-encoded latent space.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Crowd Counting (ICPR'18) -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/Crowd-ICPR2018.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/8545816">
+          <span class="papertitle">Selective Ensemble Network for Accurate Crowd Density Estimation</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=OE5a6yAAAAAJ&hl=en">Jiyeoup Jeong</a>
+        <a href="https://scholar.google.com/citations?user=rv1a9U4AAAAJ&hl=ko">Hawook Jeong</a>,
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=F3u9qHcAAAAJ&hl=en">Jongwon Choi</a>, 
+        <a href="https://sangdooyun.github.io">Sangdoo Yun</a>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>ICPR</em>, 2018
+        <br>
+        <a href="data/Crowd-ICPR2018.txt">bibtex</a>
+        <p></p>
+        <p>
+          We propose a selective ensemble deep network architecture for crowd density estimation and people counting. 
+          In contrast to existing deep network-based methods, the proposed method incorporates two sub-networks for local density estimation: one to learn sparse density regions and one to learn dense density regions.
+        </p>
+      </td>
+    </tr>
+
+    <!-- MCD (PR Letters'17) -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/MCD-PRL2017.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865517300260">
+          <span class="papertitle">Scene Conditional Background Update for Moving Object Detection in a Moving Camera</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=fcVfLCkAAAAJ&hl=ko">Kimin Yun</a>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>        
+        <br>
+        <em>Pattern Recognition Letters</em>, 2017
+        <br>
+        <a href="data/MCD-PRL2017.txt">bibtex</a>
+        /
+        <a href="https://github.com/CansenJIANG/SCBU">code</a>
+        /
+        <a href="https://www.youtube.com/watch?v=ZNFZzhQgjkc">video</a>
+        <p></p>
+        <p>
+          We propose a moving object detection algorithm adapting to various scene changes in a moving camera.
+          Our method adapts itself to the dynamic scene changes and outperforms the state-of-the art methods.
+        </p>
+      </td>
+    </tr>
+
+    <!-- MCD (ICPR'16) -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/MCD-ICPR2016.png" alt="Thumbnail" style="width: 160px; height: auto;">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/7900044">
+          <span class="papertitle">Attention-Inspired Moving Object Detection in Monocular Dashcam Videos</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.co.kr/citations?user=fcVfLCkAAAAJ&hl=ko">Kimin Yun</a>
+        <strong>Jongin Lim</strong>, 
+        <a href="https://sangdooyun.github.io">Sangdoo Yun</a>, 
+        <a href="https://kr.linkedin.com/in/soo-wan-kim-53936111b">Soo Wan Kim</a>,
+        <a href="https://scholar.google.com/citations?user=NoEVFWQAAAAJ&hl=ko">Jin young Choi</a>         
+        <br>
+        <em>ICPR</em>, 2016
+        <br>
+        <a href="data/MCD-ICPR2016.txt">bibtex</a>
+        <p></p>
+        <p>
+          We propose a moving object detection algorithm for a monocular dashcam mounted on a vehicle. 
+          To deal with dynamic changes of the scene from the dashcam, we propose a new scheme inspired by human-attention inclination for change detection.
+        </p>
+      </td>
+    </tr>
+
+          </tbody></table>
+          
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Patents</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+<div style="padding-left:16px; margin-bottom: 40px;">
+  <p><strong>Method and Device with Image-Difference Reduction Preprocessing</strong>
+    [<a href="https://patents.google.com/patent/US20250045884A1/en?oq=US18%2f791859" target="_blank">Google Patent</a>]
+  </p>
+  <ul style="list-style-type: disc; padding-left: 40px;">
+    <li>🇰🇷 KR20250020150A, South Korea (Publication: 2025-02-11)</li>
+    <li>🇺🇸 US20250045884A1, United States (Publication: 2025-02-06)</li>
+    <li>🇹🇼 TW202507651A, Taiwan (Publication: 2025-02-16)</li>
+    <li>🇪🇺 EP4502936A3, European Patent Office (Publication: 2025-05-14)</li>
+    <li>🇨🇳 CN119444583A, China (Publication: 2025-02-14)</li>
+  </ul>
+</div>
+
+<div style="padding-left:16px; margin-bottom: 40px;">
+  <p><strong>Method and Electronic Device with Adversarial Data Augmentation</strong>
+    [<a href="https://patents.google.com/patent/US20240152764A1/en?oq=US18%2f461067" target="_blank">Google Patent</a>]
+  </p>
+  <ul>
+    <li>🇺🇸 US20240152764A1, United States (Publication: 2024-05-09)</li>
+    <li>🇯🇵 JP2024066469A, Japan (Publication: 2024-05-15)</li>
+    <li>🇪🇺 EP4365777A1, European Patent Office (Publication: 2024-05-08)</li>
+  </ul>
+</div>
+
+<div style="padding-left:16px; margin-bottom: 40px;">
+  <p><strong>Method and Device with Defect Detection</strong>
+    [<a href="https://patents.google.com/patent/US20240153070A1/en?oq=METHOD+AND+DEVICE+WITH+DEFECT+DETECTION+US18%2f320587" target="_blank">Google Patent</a>]
+  </p>
+  <ul style="list-style-type: disc; padding-left: 40px;">
+    <li>🇰🇷 KR20240064412A, South Korea (Publication: 2024-05-13)</li>
+    <li>🇺🇸 US20240153070A1, United States (Publication: 2024-05-09)</li>
+    <li>🇨🇳 CN117994200A, China (Publication: 2024-05-07)</li>
+    <li>🇪🇺 EP4365834A1, European Patent Office (Publication: 2024-05-08)</li>
+    <li>🇯🇵 JP2024068105A, Japan (Publication: 2024-05-17)</li>
+  </ul>
+</div>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+          
+          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Talks</h2>
+                <ul style="list-style-type: disc; padding-left: 40px;">
+                  <li>
+                    [2024.10] 📹 <a href="https://www.youtube.com/watch?v=oc-Ygslabkw">An interview about life as a researcher at SAIT</a>,
+                    Samsung Advanced Institute of Technology (SAIT)
+                  </li>
+                  <li>
+                    [2022.08] 🎤 Invited talk on <a href="https://www.youtube.com/watch?v=XUlSaZ0UQCQ&t=327s" target="_blank">Graph-based Representation Learning for Class Discriminative Feature Embedding</a>,
+                    Seoul National University (SNU) AI Summer School 2022
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+  <tbody>
+    <tr>
+      <td>
+        <h2>Honors & Awards</h2>
+        <ul style="list-style-type: disc; padding-left: 40px;">
+          <li>
+            [2019.01] 🎖️ <strong>Samsung SAIT Scholarship</strong><br>
+            Awarded a scholarship from Samsung as part of an industry-academia collaboration program, receiving research funding during the Ph.D. program.
+          </li>
+          <li>
+            [2018.09] 🏆 <strong>Best Presentation Award, Samsung AI Forum</strong><br>
+            Recognized for outstanding presentation in the poster session and awarded a Galaxy Note 9 as a prize.
+            <a href="https://www.sait.samsung.co.kr/saithome/event/saif2018.do" target="_blank">[link]</a>
+          </li>
+          <li>
+            [2013.03] 🎖️ <strong>Kwanjeong Educational Foundation Scholarship</strong><br>
+            Awarded a prestigious scholarship selecting top talent in South Korea, providing full tuition and financial support for two years.
+          </li>
+          <li>
+            [2012.09] 🎓 <strong>SNU Eminence Scholarship</strong><br>
+            Awarded a full tuition scholarship in recognition of academic excellence.
+          </li>
+          <li>
+            [2011.09] 🎓 <strong>SNU Superior Academic Performance Scholarship</strong><br>
+            Awarded a partial tuition scholarship in recognition of academic excellence.
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

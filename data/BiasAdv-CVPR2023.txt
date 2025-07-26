@@ -1,0 +1,7 @@
+@inproceedings{lim2023biasadv,
+  title={Biasadv: Bias-adversarial augmentation for model debiasing},
+  author={Lim, Jongin and Kim, Youngdong and Kim, Byungjai and Ahn, Chanho and Shin, Jinwoo and Yang, Eunho and Han, Seungju},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={3832--3841},
+  year={2023}
+}

@@ -1,0 +1,7 @@
+@inproceedings{lim2019pmnet,
+  title={Pmnet: Learning of disentangled pose and movement for unsupervised motion retargeting},
+  author={Lim, Jongin and Chang, Hyung Jin and Choi, Jin Young},
+  booktitle={30th British Machine Vision Conference (BMVC 2019)},
+  year={2019},
+  organization={British Machine Vision Association, BMVA}
+}
